@@ -29,5 +29,6 @@ public class Main {
         System.out.println(liczbaA >= 0);
         System.out.println(liczbaB!= 10);
 
+
     }
 }
