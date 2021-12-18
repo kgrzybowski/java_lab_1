@@ -7,10 +7,10 @@ public class Main {
         System.out.println("Tu Karol");
         System.out.println("Uczę" + " " + "się" + " " + "programować!");
 
-        System.out.printf("A %s zaczynamy z %d przykładem.\n", "więc", 1);
+        System.out.printf("Dobra %s zaczynamy z %d przykładem.\n", "to", 1);
 
-        System.out.print("Jakiś tekst");
-        System.out.print(" tekst");
-        System.out.print(" nie za długi.");
+        System.out.print("Jakiś fajny");
+        System.out.print(" nie za długi");
+        System.out.print(" tekst.");
     }
 }
