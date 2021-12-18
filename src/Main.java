@@ -15,21 +15,25 @@ public class Main {
         int odejmowanie = liczbaE - liczbaA;
         int mnozenie = liczbaC * liczbaD;
         int dzielenie = liczbaE / liczbaC;
+        int modulo = liczbaF % liczbaH;
 
         double dodawanieXY = liczbaX + liczbaY;
         double odejmowanieXY = liczbaX - liczbaY;
         double mnozenieXY = liczbaX * liczbaY;
         double dzielenieXY = liczbaX / liczbaY;
+        double moduloXY = liczbaX % liczbaY;
 
         System.out.println("dodawanie liczby A i B wynosi " + dodawanie);
         System.out.println("odejmowanie liczby E i A wynosi " + odejmowanie);
         System.out.println("mnożenie liczby C i D wynosi " + mnozenie);
         System.out.println("dzielenie liczby E i C wynosi " + dzielenie);
+        System.out.println("reszta z liczby F i H wynosi " + modulo);
         System.out.println("");
         System.out.println("dodawanie liczby X i Y wynosi " + dodawanieXY);
         System.out.println("odejmowanie liczby X i Y wynosi " + odejmowanieXY);
         System.out.println("mnożenie liczby X i Y wynosi " + mnozenieXY);
         System.out.println("dzielenie liczby X i Y wynosi " + dzielenieXY);
+        System.out.println("reszta z liczby X i Y wynosi " + moduloXY);
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
