@@ -25,7 +25,16 @@ public class Main {
         }
 
         int indeks = 59931;
-        int wynik = (indeks % 2 == 0) ? 0 : 1;
-        System.out.println(wynik);
+        String komunikat;
+        komunikat = indeks % 2 ==0 ? "parzysta" : "nieparzysta";
+        System.out.println(komunikat);
+
+        double liczbaA;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj liczbę dziesiętną: ");
+        liczbaA = scan.nextDouble();
+
+
+
     }
 }
