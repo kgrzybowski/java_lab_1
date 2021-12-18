@@ -9,7 +9,7 @@ public class Main {
 
         System.out.printf("A %s zaczynamy z %d przykładem.\n", "więc", 1);
 
-        System.out.print("To jest jakiś");
+        System.out.print("Jakiś tekst");
         System.out.print(" tekst");
         System.out.print(" nie za długi.");
     }
