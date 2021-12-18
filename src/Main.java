@@ -17,6 +17,15 @@ public class Main {
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
 
+        int wiek = 25;
+        if (wiek % 3 == 0) {
+            System.out.println("Podzielny przez 3");
+        } else {
+            System.out.println("Niepodzielny przez 3");
+        }
 
+        int indeks = 59931;
+        int wynik = (indeks % 2 == 0) ? 0 : 1;
+        System.out.println(wynik);
     }
 }
